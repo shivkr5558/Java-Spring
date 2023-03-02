@@ -58,7 +58,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
     }
 
-    @ExceptionHandler(MethodArgumentNotValidException.class)
+    /*@ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Object> handleMethodArgumentNotValidException(MethodArgumentNotValidException exception,
                                                                         WebRequest webRequest){
         Map<String, String> errors = new HashMap<>();
@@ -68,6 +68,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
             errors.put(fieldName, message);
         });
        return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
-    }
+    }*/
     
 }

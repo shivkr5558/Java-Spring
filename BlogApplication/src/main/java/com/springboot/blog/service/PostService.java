@@ -5,6 +5,9 @@ import com.springboot.blog.payload.PostResponse;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public interface PostService {
     PostDto createPost(PostDto postDto);
 

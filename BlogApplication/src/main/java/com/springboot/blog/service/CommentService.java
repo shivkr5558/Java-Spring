@@ -4,6 +4,9 @@ import com.springboot.blog.payload.CommentDto;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public interface CommentService {
     CommentDto createComment(long postId, CommentDto commentDto);
 
