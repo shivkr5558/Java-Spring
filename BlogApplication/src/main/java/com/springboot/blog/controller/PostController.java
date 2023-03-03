@@ -13,7 +13,6 @@ import java.util.List;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping()
 public class PostController {
 
     private PostService postService;
