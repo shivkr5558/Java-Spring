@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Java-Blog",
+    "description": "Java Knowledge Blog"
+  },
+  {
+    "id": 2,
+    "name": "Machine-Learning-Blog",
+    "description": "ML Knowledge Blog"
+  }
+]
+
+{
+  "content": [
+    {
+      "id": 1,
+      "title": "Java JVM Architecture",
+      "description": "How JVM Works – JVM Architecture?",
+      "content": "JVM(Java Virtual Machine) acts as a run-time engine to run Java applications. JVM is the one that actually calls the main method present in a java code. JVM is a part of JRE(Java Runtime Environment).",
+      "comments": [
+        {
+          "id": 2,
+          "name": "SHIVK",
+          "email": "shiv@gmail.com",
+          "body": "Satisfied contents"
+        },
+        {
+          "id": 1,
+          "name": "SHIVK",
+          "email": "shiv@gmail.com",
+          "body": "Good useful posts"
+        },
+        {
+          "id": 3,
+          "name": "RameshK",
+          "email": "ramesh@gmail.com",
+          "body": "Not useful contents"
+        }
+      ],
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Memory Management in Java",
+      "description": "What is Memory Management In Java?",
+      "content": "Memory management in Java is the process of allocating working memory space to new objects and properly removing unreferenced objects to create space for those new object allocations.",
+      "comments": [
+        {
+          "id": 4,
+          "name": "RameshK",
+          "email": "ramesh@gmail.com",
+          "body": "useful contents"
+        },
+        {
+          "id": 5,
+          "name": "NehaS",
+          "email": "neha@gmail.com",
+          "body": "Enjoy the posts"
+        }
+      ],
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "title": "4 Types of Machine Learning",
+      "description": "4 Types of Machine Learning and How to Build a Great Career in Each",
+      "content": "The four different types of machine learning are:1-Supervised Learning, 2-Unsupervised Learning, 3-Semi-Supervised Learning, 4-Reinforced Learning",
+      "comments": [
+        {
+          "id": 6,
+          "name": "NehaS",
+          "email": "neha@gmail.com",
+          "body": "Enjoy the posts"
+        }
+      ],
+      "categoryId": 2
+    }
+  ]
+}
